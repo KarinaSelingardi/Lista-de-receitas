@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            html{
+                background-color: bisque;
+
+            }
+            #pai{
+                background-color: bisque;
+                height:728px ;
+                width:1472px ;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .text{
+                margin-bottom: 10px;
+                border-radius: 12px;
+                height: 25px;
+                width: 200px;
+            }
+            .submit{
+                border-radius: 12px;
+                height: 32px;
+                width: 205px;
+                color:blue;
+                background-color: cadetblue;
+            }
+            .submit:hover{
+                color:brown;
+                background-color: burlywood;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="pai">
+            <form>
+                <input type="text" id="e-mail" placeholder="E-MAIL" class="text"><br>
+                <input type="text" id="senha" placeholder="SENHA"  class="text"><br>
+                <input type="submit" id="enviar" value="cadastrar" class="submit">
+            </form>
+        </div>
+        <script>
+                var pegar = document.getElementById("enviar")
+
+                pegar.addEventListener("click", (e) => {
+                    e.preventDefault()
+
+                    var email = document.getElementById("e-mail").value
+                    console.log(email)
+                })
+        </script>
+    </body>
+</html>
