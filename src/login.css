@@ -1,0 +1,75 @@
+html{
+    background-color: black;
+}
+#rodape{
+    background-color: red;
+    height: 120px;
+    width: 1465px;
+}
+
+#pai{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid;
+    height: 600px;
+    width: 1465px;
+}
+.f1{
+    background-color: red;
+    border: solid;
+    height:600px;
+    width: 900px;
+}
+.f2{
+    background-color: rgba(254, 208, 47, 1);
+    border: solid;
+    height:600px;
+    width: 565px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon{
+    height: 23px;
+    width: 25px;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+.text{
+    margin-bottom: 10px;
+    border-radius: 12px;
+    height: 27px;
+    width: 200px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.submit{
+    border-radius: 12px;
+    height: 32px;
+    width: 235px;
+    color:black;
+    background-color: white;
+}
+.submit:hover{
+    background-color: rgb(255, 255, 93);
+}
+img{
+    height:600px;
+    width: 900px;       
+}
+.logo{
+    height: 120px;
+    width: 295px;
+    position: absolute;
+    top: 60px;
+}
+
+
+/*1440x1024
+
+
+

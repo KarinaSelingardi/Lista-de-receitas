@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>LOGIN</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div id="pai">
+            <div class="f1">
+                <img src="../imagens/Receitas_Rapidas_Morar_Construtora.jpeg">
+            </div>
+            <div class="f2">
+                <img class="logo" src="../imagens/images.jpg">
+                <form>
+                    <span ><img class="icon" src="../icones/user-solid.svg"><input type="text" id="e-mail" placeholder="E-MAIL" class="text"></span><br>
+                    <span><img class="icon" src="../icones/lock-solid.svg"><input type="text" id="senha" placeholder="SENHA"  class="text"></span><br>
+                    <input type="submit" id="enviar" value="Logar" class="submit">
+                </form>
+            </div>
+        </div>
+        <div id="rodape">
+
+        </div>
+        <script>
+            var pegar = document.getElementById("enviar")
+
+            pegar.addEventListener("click", (e) => {
+                e.preventDefault()
+
+                var email = document.getElementById("e-mail").value
+                var senha = document.getElementById("senha").value
+                
+                console.log(email)
+                console.log(senha)
+            })
+        </script>
+    </body>
+</html>
