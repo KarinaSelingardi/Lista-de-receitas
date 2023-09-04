@@ -2,7 +2,7 @@ html{
     background-color: black;
 }
 #rodape{
-    background-color: red;
+    background-color: rgba(166, 0, 0, 1);
     height: 120px;
     width: 1465px;
 }
@@ -17,7 +17,7 @@ html{
     width: 1465px;
 }
 .f1{
-    background-color: red;
+    background-color: rgba(166, 0, 0, 1);
     border: solid;
     height:600px;
     width: 900px;
