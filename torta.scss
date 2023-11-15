@@ -1,0 +1,97 @@
+$font-family: 'Georgia', 'serif';
+
+$cor-fundo-body: #FFFFE0;
+$cor-fundo-container: #FFE4B5;
+$cor-shadow: rgba(0, 0, 0, 0.1);
+$cor-cabecalho: #FFA500;
+$cor-fonte: #333; 
+$cor-h1: #FF6347;
+$cor-h2: #FF8C00;
+$cor-purple-bg: #FF8C00;
+$cor-purple-font: #333;
+$cor-black-bg: #FF8C00;
+$cor-black-font: #fff;
+$border-radius: 8px;
+
+body {
+    font-family: $font-family;
+    background-color: $cor-fundo-body;
+    margin: 0;
+}
+
+.container {
+    background-color: $cor-fundo-container;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: $border-radius;
+    box-shadow: 0 0 10px $cor-shadow;
+}
+
+#cabecalho {
+    background-color: $cor-cabecalho;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.font {
+    color: $cor-fonte;
+}
+
+.torta {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: $cor-h1;
+}
+
+h2 {
+    color: $cor-h2;
+}
+.orange{
+    background-color: $cor-purple-bg;
+    color: $cor-purple-font;
+    padding: 11px;
+    border-radius: 6px;
+    background-image: url('https://github.com/Gabriel-Dev-JS/Lista-de-receitas/blob/karina/frango.jpeg?raw=true');
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+.white{
+    background-color: $cor-purple-bg;
+    color: $cor-purple-font;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url('https://github.com/Gabriel-Dev-JS/Lista-de-receitas/blob/Gabriel/imagens/alho.jpeg?raw=true');
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+
+.purple {
+    background-color: $cor-purple-bg;
+    color: $cor-purple-font;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url('https://github.com/Gabriel-Dev-JS/Lista-de-receitas/blob/karina/ervilha.jpeg?raw=true');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.black {
+    background-color: $cor-black-bg;
+    color: $cor-black-font;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url('https://github.com/Gabriel-Dev-JS/Lista-de-receitas/blob/karina/requeij%C3%A3o.jpeg?raw=true'); 
+    background-repeat: no-repeat;
+    background-position: right center;
+}
